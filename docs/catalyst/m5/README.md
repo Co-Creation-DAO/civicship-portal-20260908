@@ -11,7 +11,7 @@ Project Catalyst F12, Project ID 1200088. Code as of `df68a9a` (2026-09-07).
 
 ### The front-end source code is published on GitHub
 
-- https://github.com/Hopin-inc/civicship-portal
+- https://github.com/Co-Creation-DAO/civicship-portal-20260908
 
 ### Detailed documentation, including UI/UX design principles, integration processes, and user instructions
 
@@ -73,7 +73,7 @@ Project Catalyst F12、Project ID 1200088。`df68a9a`（2026-09-07）時点の�
 
 ### フロントエンドのソースコードが GitHub で公開されていること
 
-- https://github.com/Hopin-inc/civicship-portal
+- https://github.com/Co-Creation-DAO/civicship-portal-20260908
 
 ### UI/UX 設計原則・連携方式・利用者向け手順書を含む詳細なドキュメント
 

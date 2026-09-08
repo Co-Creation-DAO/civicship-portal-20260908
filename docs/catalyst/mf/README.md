@@ -42,7 +42,7 @@ Project Catalyst F12, Project ID 1200088. Code as of `df68a9a` (2026-09-07).
 
 ### Fixed code publicly available on GitHub
 
-- https://github.com/Hopin-inc/civicship-portal
+- https://github.com/Co-Creation-DAO/civicship-portal-20260908
 - https://github.com/Hopin-inc/civicship-api
 
 ---
@@ -89,5 +89,5 @@ Project Catalyst F12、Project ID 1200088。`df68a9a`（2026-09-07）時点の�
 
 ### 修正済みコードが GitHub で公開されていること
 
-- https://github.com/Hopin-inc/civicship-portal
+- https://github.com/Co-Creation-DAO/civicship-portal-20260908
 - https://github.com/Hopin-inc/civicship-api
