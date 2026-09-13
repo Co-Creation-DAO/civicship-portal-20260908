@@ -74,7 +74,7 @@ location, and time".
 | | |
 | --- | --- |
 | Stated approach | Interview articles placed alongside the activities; activity photographs uploaded by the people who took part; an interface led by photographs and a map rather than by text |
-| Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. |
+| Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. Activity photographs are uploaded by the people who took part, attached to a points transfer: `/wallets/donate` and `/admin/wallet/grant` both take them through [`TransferInputStep.tsx`](../../../src/app/community/%5BcommunityId%5D/admin/wallet/grant/components/TransferInputStep.tsx), and `/transactions/[id]` edits them afterwards. |
 
 ## 5. Experience that leads to further experience
 
@@ -184,7 +184,7 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | | |
 | --- | --- |
 | 記載されたアプローチ | インタビュー記事を活動と並べて配置する／活動の写真は参加した本人がアップロードする／テキストではなく写真とマップを主体としたインターフェース |
-| 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。 |
+| 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。活動の写真は、参加した本人がポイント送付に添えてアップロードする。`/wallets/donate` と `/admin/wallet/grant` はいずれも [`TransferInputStep.tsx`](../../../src/app/community/%5BcommunityId%5D/admin/wallet/grant/components/TransferInputStep.tsx) を通して受け取り、`/transactions/[id]` で後から編集できる。 |
 
 ## 5. 次の体験につながる体験
 
