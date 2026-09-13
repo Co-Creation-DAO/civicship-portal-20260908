@@ -16,6 +16,8 @@ Project Catalyst F12, Project ID 1200088. Code as of `df68a9a` (2026-09-07).
 ### Detailed documentation, including UI/UX design principles, integration processes, and user instructions
 
 - [Front-end documentation](./frontend-documentation.md)
+- [From the Milestone 3 prototype to the application today](./design-traceability.md)
+  — each value the Milestone 3 design set out, and the screen that carries it
 
 ### A link is provided to try out the completed mutual app
 
@@ -78,6 +80,8 @@ Project Catalyst F12、Project ID 1200088。`df68a9a`（2026-09-07）時点の�
 ### UI/UX 設計原則・連携方式・利用者向け手順書を含む詳細なドキュメント
 
 - [フロントエンド ドキュメント](./frontend-documentation.md)
+- [Milestone 3 のプロトタイプから、現在のアプリケーションまで](./design-traceability.md)
+  — Milestone 3 の設計が定めた各価値と、それを担う画面
 
 ### 完成したアプリを試せるリンクが提供されていること
 
