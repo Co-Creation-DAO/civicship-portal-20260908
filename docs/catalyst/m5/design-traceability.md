@@ -12,9 +12,6 @@ of values, and expressed those values as a Figma prototype. This document carrie
 that chain one step further: from each value, to what the prototype made of it,
 to the screen that runs it today.
 
-Sections 1 to 5 follow the five values in the main Milestone 3 document; section
-6 is the one the Value-to-Interface Mapping adds on the participant's side.
-
 Sources:
 
 | | |
@@ -23,10 +20,7 @@ Sources:
 | Value-to-Interface Mapping | [Additional Document M3](https://hopin-inc.notion.site/Additional-Document-M3-21130b95d2b68092aae4de53b3e5147d) |
 | The prototype | [Figma](https://www.figma.com/design/TkZ3wAG6zj114b4N6ogJyf/Co-Creation-DAO-App-UI--Catalyst-M3-) |
 
-Paths below are relative to **https://dev.civicship.app/community/neo88**, the
-development deployment, which signs a visitor in automatically with an owner
-membership — no LINE account, no personal information, and every administrative
-screen reachable.
+Paths below are relative to **https://dev.civicship.app/community/neo88**.
 
 ## What Milestone 5 submitted against what Milestone 3 submitted
 
@@ -77,32 +71,22 @@ location, and time".
 
 ## 4. An interface that carries atmosphere
 
-Not part of the Value-to-Interface Mapping; the approach is stated in the
-Milestone 3 document itself.
-
 | | |
 | --- | --- |
 | Stated approach | Interview articles placed alongside the activities; activity photographs uploaded by the people who took part; an interface led by photographs and a map rather than by text |
 | Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. |
-
-The article index at `/articles` exists but carries no navigation entry, so an
-article is reached through the activity or place it belongs to rather than from a
-list.
 
 ## 5. Experience that leads to further experience
 
 | | |
 | --- | --- |
 | Stated approach | Group application through a shared invitation link; recommendation of nearby events held on the same day |
-| Today | Partly. An invitation is received at `/tickets/receive`, and activities are searched and filtered at `/opportunities/search` and `/search/result` |
+| Today | An invitation is received at `/tickets/receive`; activities are searched and filtered at `/opportunities/search` and `/search/result` |
 
 **Not built:** group application through a shared invitation link, and
 same-day nearby-event recommendation.
 
 ## 6. Opportunities to apply skills and experience
-
-This value appears in the Value-to-Interface Mapping under *Participant*. It does
-not fold into the five above, which follow the main document's framing.
 
 | | |
 | --- | --- |
@@ -113,11 +97,9 @@ not fold into the five above, which follow the main document's framing.
 
 | Milestone 3 | Today |
 | --- | --- |
-| "(Future scope) Skill-tagged recommendations" | Not built. Article recommendations exist, but they recommend articles rather than matching activities to a participant's skills. |
+| "(Future scope) Skill-tagged recommendations" | Not built. |
 
 ## Beyond Milestone 3
-
-Areas of the application that postdate the Value-to-Interface Mapping.
 
 | Area | Screens |
 | --- | --- |
@@ -127,9 +109,6 @@ Areas of the application that postdate the Value-to-Interface Mapping.
 | Member bonuses | `/admin/bonuses`, `/admin/bonuses/signup` |
 | Analytics | `/admin/analytics` |
 | System administration | under `/sysAdmin` |
-
-The application has 79 pages in total. Screen recordings of twenty-one use cases
-are in [`demo/`](./demo/).
 
 ---
 ---
@@ -147,9 +126,6 @@ Milestone 3 では、インタビューを通じて利用者のフィードバ�
 先へ進める。すなわち、各価値が、プロトタイプで何になり、現在どの画面で動いているか
 を示す。
 
-1〜5節は Milestone 3 本体文書の5つの価値に沿う。6節は Value-to-Interface Mapping が
-参加者側に加えている価値である。
-
 出典：
 
 | | |
@@ -159,8 +135,6 @@ Milestone 3 では、インタビューを通じて利用者のフィードバ�
 | プロトタイプ | [Figma](https://www.figma.com/design/TkZ3wAG6zj114b4N6ogJyf/Co-Creation-DAO-App-UI--Catalyst-M3-) |
 
 以下のパスは **https://dev.civicship.app/community/neo88** からの相対である。
-開発環境は訪問者をオーナー権限で自動的にサインインさせるため、LINE アカウントも
-個人情報も要らず、管理画面にもすべて到達できる。
 
 ## Milestone 3 の提出物と、Milestone 5 の提出物
 
@@ -210,31 +184,22 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 
 ## 4. 空気感を伝えるインターフェース
 
-Value-to-Interface Mapping には含まれない。アプローチは Milestone 3 の文書本文に
-記載されている。
-
 | | |
 | --- | --- |
 | 記載されたアプローチ | インタビュー記事を活動と並べて配置する／活動の写真は参加した本人がアップロードする／テキストではなく写真とマップを主体としたインターフェース |
 | 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。 |
-
-記事の一覧 `/articles` は存在するが、ナビゲーションからの導線を持たない。記事は
-一覧からではなく、その記事が属する活動や拠点から到達する。
 
 ## 5. 次の体験につながる体験
 
 | | |
 | --- | --- |
 | 記載されたアプローチ | 招待リンクの共有による複数人での申込／同日開催の周辺イベントのレコメンド |
-| 現在 | 部分的。招待の受け取りは `/tickets/receive`、募集の検索と絞り込みは `/opportunities/search` と `/search/result` |
+| 現在 | 招待の受け取りは `/tickets/receive`、募集の検索と絞り込みは `/opportunities/search` と `/search/result` |
 
 **未実装：** 招待リンクの共有による複数人での申込、および同日開催イベントの
 レコメンド。
 
 ## 6. スキルと経験を活かせる機会
-
-この価値は Value-to-Interface Mapping の *Participant* 側にある。上の5つは本体文書の
-枠組みに沿っており、この価値はそこに畳み込めない。
 
 | | |
 | --- | --- |
@@ -245,11 +210,9 @@ Value-to-Interface Mapping には含まれない。アプローチは Milestone 
 
 | Milestone 3 の記載 | 現在 |
 | --- | --- |
-| "(Future scope) Skill-tagged recommendations" | 未実装。記事のレコメンドは存在するが、参加者のスキルに募集を合わせるものではない。 |
+| "(Future scope) Skill-tagged recommendations" | 未実装。 |
 
 ## Milestone 3 を超えて構築したもの
-
-Value-to-Interface Mapping より後に追加された領域。
 
 | 領域 | 画面 |
 | --- | --- |
@@ -259,6 +222,3 @@ Value-to-Interface Mapping より後に追加された領域。
 | 特典 | `/admin/bonuses`、`/admin/bonuses/signup` |
 | 分析 | `/admin/analytics` |
 | システム管理 | `/sysAdmin` 以下 |
-
-アプリケーションの総ページ数は 79。21件のユースケースの画面録画は
-[`demo/`](./demo/) にある。
