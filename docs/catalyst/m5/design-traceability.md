@@ -78,6 +78,16 @@ list.
 **Not built:** group application through a shared invitation link, and
 same-day nearby-event recommendation.
 
+## 6. Opportunities to apply skills and experience
+
+This value appears in the Value-to-Interface Mapping under *Participant*. It does
+not fold into the five above, which follow the main document's framing.
+
+| | |
+| --- | --- |
+| Prototype | A search interface to browse activities and quests by interest or need; skill-tagged recommendations noted as future scope |
+| Today | A Quest is the form an opportunity takes when the participant contributes rather than receives. `/opportunities/search?type=quest` lists them, and a quest states the points the participant will earn where an activity states a fee, a point cost or a ticket — [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) is where the two diverge. |
+
 ## Carried forward from Milestone 3
 
 | Milestone 3 | Today |
@@ -179,6 +189,16 @@ Value-to-Interface Mapping には含まれない。アプローチは Milestone 
 
 **未実装：** 招待リンクの共有による複数人での申込、および同日開催イベントの
 レコメンド。
+
+## 6. スキルと経験を活かせる機会
+
+この価値は Value-to-Interface Mapping の *Participant* 側にある。上の5つは本体文書の
+枠組みに沿っており、この価値はそこに畳み込めない。
+
+| | |
+| --- | --- |
+| プロトタイプ | 関心や必要に応じて Activity と Quest を探せる検索インターフェース。スキルタグによるレコメンドは将来対応と記載 |
+| 現在 | Quest は、参加者が受け取る側ではなく貢献する側に立つときの募集の形である。`/opportunities/search?type=quest` が一覧を出し、Activity が参加費・ポイント消費・チケット利用を示すのに対し、Quest は参加者が獲得するポイント数を示す。分岐は [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) にある。 |
 
 ## Milestone 3 で将来対応としたもの
 
