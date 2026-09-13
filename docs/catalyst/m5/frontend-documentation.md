@@ -26,6 +26,9 @@ Produced and submitted during Milestone 3, and approved there.
 | Design walkthrough — participant side | https://youtube.com/playlist?list=PL0Jg6Cs8E9r3ynDqeweM-kWII2znYjr2v |
 | Design walkthrough — host / admin side | https://youtube.com/playlist?list=PL0Jg6Cs8E9r1tfJ25FdtOguzyt6KWkiCV |
 
+[From the Milestone 3 prototype to the application today](./design-traceability.md)
+carries each of those values through to the screen that runs it.
+
 The principle those documents apply here:
 
 - The UX assumes a mobile browser inside LINE
@@ -124,6 +127,9 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 | UI デザイン（Figma） | https://www.figma.com/design/TkZ3wAG6zj114b4N6ogJyf/Co-Creation-DAO-App-UI--Catalyst-M3- |
 | デザイン ウォークスルー — 参加者側 | https://youtube.com/playlist?list=PL0Jg6Cs8E9r3ynDqeweM-kWII2znYjr2v |
 | デザイン ウォークスルー — ホスト / 管理者側 | https://youtube.com/playlist?list=PL0Jg6Cs8E9r1tfJ25FdtOguzyt6KWkiCV |
+
+[M3 のプロトタイプから現在のアプリケーションまで](./design-traceability.md)に、
+各価値が動作中の画面へ至るまでの対応を示している。
 
 それらの資料が本実装に適用している原則：
 
