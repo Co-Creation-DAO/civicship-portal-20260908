@@ -7,10 +7,13 @@
 
 Project Catalyst F12, Project ID 1200088.
 
-Milestone 3 gathered user feedback through interviews, distilled it into five
-values, and expressed those values as a Figma prototype. This document carries
+Milestone 3 gathered user feedback through interviews, distilled it into a set
+of values, and expressed those values as a Figma prototype. This document carries
 that chain one step further: from each value, to what the prototype made of it,
 to the screen that runs it today.
+
+Sections 1 to 5 follow the five values in the main Milestone 3 document; section
+6 is the one the Value-to-Interface Mapping adds on the participant's side.
 
 Sources:
 
@@ -24,6 +27,24 @@ Paths below are relative to **https://dev.civicship.app/community/neo88**, the
 development deployment, which signs a visitor in automatically with an owner
 membership — no LINE account, no personal information, and every administrative
 screen reachable.
+
+## What Milestone 5 submitted against what Milestone 3 submitted
+
+Milestone 3 submitted a design. Milestone 5 submitted the application that
+design became.
+
+| Milestone 3 | Milestone 5 |
+| --- | --- |
+| A UI/UX design prototype in Figma | The front end itself — [source](https://github.com/Co-Creation-DAO/civicship-portal-20260908), [documentation](./frontend-documentation.md), and a [running deployment](https://civicship.app/community/neo88) |
+| Design walkthrough videos: the prototype, narrated, in two playlists | [Use-case recordings](./demo/): the running application, in the same two sets |
+| Requirements for the redesign, and an action plan | This document — each value, and the screen that carries it |
+
+The recordings keep the split visible. [`milestone3-use-cases/`](./demo/milestone3-use-cases/)
+holds the eleven use cases Milestone 3 demonstrated, recorded again on the
+current application. [`beyond-milestone3/`](./demo/beyond-milestone3/) holds ten
+that go past it. This document reads the same way: sections 1 to 6 are what the
+prototype set out, and the two sections after them are what was left for later
+and what was built beyond it.
 
 ## 1. Visualising local people, activities and resources
 
@@ -88,13 +109,13 @@ not fold into the five above, which follow the main document's framing.
 | Prototype | A search interface to browse activities and quests by interest or need; skill-tagged recommendations noted as future scope |
 | Today | A Quest is the form an opportunity takes when the participant contributes rather than receives. `/opportunities/search?type=quest` lists them, and a quest states the points the participant will earn where an activity states a fee, a point cost or a ticket — [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) is where the two diverge. |
 
-## Carried forward from Milestone 3
+## Left for a later milestone
 
 | Milestone 3 | Today |
 | --- | --- |
 | "(Future scope) Skill-tagged recommendations" | Not built. Article recommendations exist, but they recommend articles rather than matching activities to a participant's skills. |
 
-## Built since, beyond the mapping
+## Beyond Milestone 3
 
 Areas of the application that postdate the Value-to-Interface Mapping.
 
@@ -121,10 +142,13 @@ are in [`demo/`](./demo/).
 
 Project Catalyst F12、Project ID 1200088。
 
-Milestone 3 では、インタビューを通じて利用者のフィードバックを収集し、それを5つの
+Milestone 3 では、インタビューを通じて利用者のフィードバックを収集し、それを複数の
 価値に整理したうえで、Figma プロトタイプとして表現した。本書はその連鎖をもう一段
 先へ進める。すなわち、各価値が、プロトタイプで何になり、現在どの画面で動いているか
 を示す。
+
+1〜5節は Milestone 3 本体文書の5つの価値に沿う。6節は Value-to-Interface Mapping が
+参加者側に加えている価値である。
 
 出典：
 
@@ -137,6 +161,23 @@ Milestone 3 では、インタビューを通じて利用者のフィードバ�
 以下のパスは **https://dev.civicship.app/community/neo88** からの相対である。
 開発環境は訪問者をオーナー権限で自動的にサインインさせるため、LINE アカウントも
 個人情報も要らず、管理画面にもすべて到達できる。
+
+## Milestone 3 の提出物と、Milestone 5 の提出物
+
+Milestone 3 は設計を提出した。Milestone 5 は、その設計がなったアプリケーションを
+提出した。
+
+| Milestone 3 | Milestone 5 |
+| --- | --- |
+| Figma の UI/UX デザインプロトタイプ | フロントエンド本体 — [ソース](https://github.com/Co-Creation-DAO/civicship-portal-20260908)、[ドキュメント](./frontend-documentation.md)、[稼働中のデプロイ](https://civicship.app/community/neo88) |
+| デザインウォークスルー動画：プロトタイプの解説、2プレイリスト | [ユースケース録画](./demo/)：稼働中のアプリケーション、同じ2セット |
+| 再設計の要件とアクションプラン | 本書 — 各価値と、それを担う画面 |
+
+録画はこの区分を保っている。[`milestone3-use-cases/`](./demo/milestone3-use-cases/)
+は Milestone 3 でデモンストレーションした11件を現在のアプリケーションで撮り直した
+もの、[`beyond-milestone3/`](./demo/beyond-milestone3/) はそれを超える10件である。
+本書も同じ読み方をする。1〜6節がプロトタイプで定めたもの、その後の2節が後回しに
+したものと、それを超えて構築したものである。
 
 ## 1. 地域の人・活動・資源の可視化
 
@@ -200,13 +241,13 @@ Value-to-Interface Mapping には含まれない。アプローチは Milestone 
 | プロトタイプ | 関心や必要に応じて Activity と Quest を探せる検索インターフェース。スキルタグによるレコメンドは将来対応と記載 |
 | 現在 | Quest は、参加者が受け取る側ではなく貢献する側に立つときの募集の形である。`/opportunities/search?type=quest` が一覧を出し、Activity が参加費・ポイント消費・チケット利用を示すのに対し、Quest は参加者が獲得するポイント数を示す。分岐は [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) にある。 |
 
-## Milestone 3 で将来対応としたもの
+## 後のマイルストーンに送ったもの
 
 | Milestone 3 の記載 | 現在 |
 | --- | --- |
 | "(Future scope) Skill-tagged recommendations" | 未実装。記事のレコメンドは存在するが、参加者のスキルに募集を合わせるものではない。 |
 
-## Mapping 以降に構築したもの
+## Milestone 3 を超えて構築したもの
 
 Value-to-Interface Mapping より後に追加された領域。
 
