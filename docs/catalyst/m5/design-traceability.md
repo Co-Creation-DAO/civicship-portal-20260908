@@ -80,11 +80,8 @@ location, and time".
 
 | | |
 | --- | --- |
-| Stated approach | Group application through a shared invitation link; recommendation of nearby events held on the same day |
+| Stated approach | Examples rather than a design — a multi-person application through a shared invitation link, recommendation of nearby events held on the same day, "etc." |
 | Today | An invitation is received at `/tickets/receive`; activities are searched and filtered at `/opportunities/search` and `/search/result` |
-
-**Not built:** group application through a shared invitation link, and
-same-day nearby-event recommendation.
 
 ## 6. Opportunities to apply skills and experience
 
@@ -193,11 +190,8 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 
 | | |
 | --- | --- |
-| 記載されたアプローチ | 招待リンクの共有による複数人での申込／同日開催の周辺イベントのレコメンド |
+| 記載されたアプローチ | 設計ではなく例示 — 招待リンクの共有による複数人での申込、同日開催の周辺イベントのレコメンド、「等」 |
 | 現在 | 招待の受け取りは `/tickets/receive`、募集の検索と絞り込みは `/opportunities/search` と `/search/result` |
-
-**未実装：** 招待リンクの共有による複数人での申込、および同日開催イベントの
-レコメンド。
 
 ## 6. スキルと経験を活かせる機会
 
