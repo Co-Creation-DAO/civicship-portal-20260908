@@ -47,7 +47,12 @@ involvement as a portfolio — runs at `/users/me/portfolios`.
 | | |
 | --- | --- |
 | Prototype | Two content types, kept distinct: Activity and Quest |
-| Today | `/activities`, `/quests`, `/opportunities`, `/opportunities/[id]`, `/reservation/select-date`, `/reservation/confirm`, `/reservation/complete`, `/participations/[id]` |
+| Today | `/opportunities`, `/opportunities/search`, `/opportunities/[id]`, `/reservation/select-date`, `/reservation/confirm`, `/reservation/complete`, `/participations/[id]` |
+
+The two types are a filter over one listing rather than two listings: `/activities`
+and `/quests` redirect to `/opportunities/search?type=activity` and `?type=quest`,
+matching the Value-to-Interface Mapping's "flexible filtering based on type,
+location, and time".
 
 ## 4. An interface that carries atmosphere
 
@@ -57,7 +62,11 @@ Milestone 3 document itself.
 | | |
 | --- | --- |
 | Stated approach | Interview articles placed alongside the activities; activity photographs uploaded by the people who took part; an interface led by photographs and a map rather than by text |
-| Today | `/articles`, `/articles/[id]`, `/places` |
+| Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. |
+
+The article index at `/articles` exists but carries no navigation entry, so an
+article is reached through the activity or place it belongs to rather than from a
+list.
 
 ## 5. Experience that leads to further experience
 
@@ -141,7 +150,12 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | | |
 | --- | --- |
 | プロトタイプ | コンテンツ種別を Activity と Quest の2つに分ける |
-| 現在 | `/activities`、`/quests`、`/opportunities`、`/opportunities/[id]`、`/reservation/select-date`、`/reservation/confirm`、`/reservation/complete`、`/participations/[id]` |
+| 現在 | `/opportunities`、`/opportunities/search`、`/opportunities/[id]`、`/reservation/select-date`、`/reservation/confirm`、`/reservation/complete`、`/participations/[id]` |
+
+2つの種別は、別々の一覧ではなく1つの一覧に対するフィルタとして実装している。
+`/activities` と `/quests` はそれぞれ `/opportunities/search?type=activity`、
+`?type=quest` へリダイレクトする。Value-to-Interface Mapping にある
+"flexible filtering based on type, location, and time" に対応する。
 
 ## 4. 空気感を伝えるインターフェース
 
@@ -151,7 +165,10 @@ Value-to-Interface Mapping には含まれない。アプローチは Milestone 
 | | |
 | --- | --- |
 | 記載されたアプローチ | インタビュー記事を活動と並べて配置する／活動の写真は参加した本人がアップロードする／テキストではなく写真とマップを主体としたインターフェース |
-| 現在 | `/articles`、`/articles/[id]`、`/places` |
+| 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。 |
+
+記事の一覧 `/articles` は存在するが、ナビゲーションからの導線を持たない。記事は
+一覧からではなく、その記事が属する活動や拠点から到達する。
 
 ## 5. 次の体験につながる体験
 
