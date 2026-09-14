@@ -81,7 +81,7 @@ location, and time".
 | | |
 | --- | --- |
 | Stated approach | Examples rather than a design — a multi-person application through a shared invitation link, recommendation of nearby events held on the same day, "etc." |
-| Today | A host issues an invitation for a set number of people and shares it from `/admin/tickets/[id]` as a QR code or a copied link; each person who opens it claims their own at `/tickets/receive`. Activities are searched and filtered at `/opportunities/search` and `/search/result`. |
+| Today | A host issues an invitation for a set number of people and shares it from `/admin/tickets/[id]` as a QR code or a copied link; each person who opens it claims their own at `/tickets/receive`. One application covers several people: `/reservation/select-date` takes a party size and `/reservation/confirm` settles a ticket or a point allocation for each. Activities are searched and filtered at `/opportunities/search` and `/search/result`. |
 
 ## 6. Opportunities to apply skills and experience
 
@@ -193,7 +193,7 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | | |
 | --- | --- |
 | 記載されたアプローチ | 設計ではなく例示 — 招待リンクの共有による複数人での申込、同日開催の周辺イベントのレコメンド、「等」 |
-| 現在 | 案内人は枚数を指定して招待を発行し、`/admin/tickets/[id]` から QR コードまたはコピーしたリンクで共有する。受け取った人はそれぞれ `/tickets/receive` で自分のぶんを受け取る。募集の検索と絞り込みは `/opportunities/search` と `/search/result`。 |
+| 現在 | 案内人は枚数を指定して招待を発行し、`/admin/tickets/[id]` から QR コードまたはコピーしたリンクで共有する。受け取った人はそれぞれ `/tickets/receive` で自分のぶんを受け取る。申込は複数人ぶんをまとめて行える。`/reservation/select-date` で人数を選び、`/reservation/confirm` で人数ぶんのチケットまたはポイントを充当する。募集の検索と絞り込みは `/opportunities/search` と `/search/result`。 |
 
 ## 6. スキルと経験を活かせる機会
 
