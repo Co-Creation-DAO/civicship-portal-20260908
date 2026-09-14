@@ -107,7 +107,6 @@ Resident-card NFTs were already present in Milestone 3's interview evidence — 
 | Resident-card NFTs | `/nfts/[id]`, `/admin/nfts` |
 | Member bonuses | `/admin/bonuses`, `/admin/bonuses/signup` |
 | Analytics | `/admin/analytics` |
-| System administration | under `/sysAdmin` — outside the community path, at https://dev.civicship.app/sysAdmin |
 
 ---
 ---
@@ -219,4 +218,3 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | 住民証 NFT | `/nfts/[id]`、`/admin/nfts` |
 | 特典 | `/admin/bonuses`、`/admin/bonuses/signup` |
 | 分析 | `/admin/analytics` |
-| システム管理 | `/sysAdmin` 以下。コミュニティ配下ではなく https://dev.civicship.app/sysAdmin |
