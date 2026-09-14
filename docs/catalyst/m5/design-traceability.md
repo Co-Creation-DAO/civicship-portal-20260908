@@ -74,14 +74,14 @@ location, and time".
 | | |
 | --- | --- |
 | Stated approach | Interview articles placed alongside the activities; activity photographs uploaded by the people who took part; an interface led by photographs and a map rather than by text |
-| Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. |
+| Today | A host's interview appears on the opportunity they run — [`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) renders it beside the host's name — and a place carries its related articles at `/places/[id]`. Either opens at `/articles/[id]`. Activity photographs are uploaded by the people who took part, attached to a points transfer: `/wallets/donate` and `/admin/wallet/grant` both take them through [`TransferInputStep.tsx`](../../../src/app/community/%5BcommunityId%5D/admin/wallet/grant/components/TransferInputStep.tsx), and `/transactions/[id]` edits them afterwards. |
 
 ## 5. Experience that leads to further experience
 
 | | |
 | --- | --- |
 | Stated approach | Examples rather than a design — a multi-person application through a shared invitation link, recommendation of nearby events held on the same day, "etc." |
-| Today | An invitation is received at `/tickets/receive`; activities are searched and filtered at `/opportunities/search` and `/search/result` |
+| Today | A host issues an invitation for a set number of people and shares it from `/admin/tickets/[id]` as a QR code or a copied link; each person who opens it claims their own at `/tickets/receive`. One application covers several people: `/reservation/select-date` takes a party size and `/reservation/confirm` settles a ticket or a point allocation for each. Activities are searched and filtered at `/opportunities/search` and `/search/result`. |
 
 ## 6. Opportunities to apply skills and experience
 
@@ -97,6 +97,8 @@ location, and time".
 | "(Future scope) Skill-tagged recommendations" | Not built. |
 
 ## Beyond Milestone 3
+
+Resident-card NFTs were already present in Milestone 3's interview evidence — "Through NFT or token ownership, even remote individuals can participate in the local economy", recorded under the participants' second value — though not among the interfaces the prototype covered.
 
 | Area | Screens |
 | --- | --- |
@@ -184,14 +186,14 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | | |
 | --- | --- |
 | 記載されたアプローチ | インタビュー記事を活動と並べて配置する／活動の写真は参加した本人がアップロードする／テキストではなく写真とマップを主体としたインターフェース |
-| 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。 |
+| 現在 | 案内人のインタビューは、その人が主催する募集の詳細に表示される（[`HostInfoSection.tsx`](../../../src/app/community/%5BcommunityId%5D/opportunities/%5Bid%5D/components/OpportunityContent/HostInfoSection.tsx) が案内人の名前の横に描画する）。拠点は関連記事を `/places/[id]` に持つ。いずれも `/articles/[id]` で開く。活動の写真は、参加した本人がポイント送付に添えてアップロードする。`/wallets/donate` と `/admin/wallet/grant` はいずれも [`TransferInputStep.tsx`](../../../src/app/community/%5BcommunityId%5D/admin/wallet/grant/components/TransferInputStep.tsx) を通して受け取り、`/transactions/[id]` で後から編集できる。 |
 
 ## 5. 次の体験につながる体験
 
 | | |
 | --- | --- |
 | 記載されたアプローチ | 設計ではなく例示 — 招待リンクの共有による複数人での申込、同日開催の周辺イベントのレコメンド、「等」 |
-| 現在 | 招待の受け取りは `/tickets/receive`、募集の検索と絞り込みは `/opportunities/search` と `/search/result` |
+| 現在 | 案内人は枚数を指定して招待を発行し、`/admin/tickets/[id]` から QR コードまたはコピーしたリンクで共有する。受け取った人はそれぞれ `/tickets/receive` で自分のぶんを受け取る。申込は複数人ぶんをまとめて行える。`/reservation/select-date` で人数を選び、`/reservation/confirm` で人数ぶんのチケットまたはポイントを充当する。募集の検索と絞り込みは `/opportunities/search` と `/search/result`。 |
 
 ## 6. スキルと経験を活かせる機会
 
@@ -207,6 +209,8 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | "(Future scope) Skill-tagged recommendations" | 未実装。 |
 
 ## Milestone 3 を超えて構築したもの
+
+住民証 NFT は、Milestone 3 のインタビュー記録には既に現れている。参加者の価値2に "Through NFT or token ownership, even remote individuals can participate in the local economy" として記録されているが、プロトタイプが扱ったインターフェースには含まれていなかった。
 
 | 領域 | 画面 |
 | --- | --- |
