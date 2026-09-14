@@ -57,8 +57,8 @@ The screens that result:
 - The front end holds no business logic and no database access
 - Everything goes through the GraphQL API in
   [`civicship-api`](https://github.com/Hopin-inc/civicship-api)
-- That API's own technical documentation was submitted as Milestone 4
-  (27 November 2025)
+- That API's own technical documentation, submitted as Milestone 4:
+  https://github.com/Hopin-inc/civicship-api/tree/master/docs/handbook
 
 - **Transport:** Apollo Client. Server components and the Edge middleware call the
   same API over HTTP with the community's session cookie; the browser sends the
@@ -69,8 +69,7 @@ The screens that result:
 - **Tenancy:** every request carries the community id. The API resolves the tenant
   and the caller's identity from it, and applies row-level security accordingly.
 - **Authorisation:** `src/lib/auth/core/access-policy.ts` decides which paths a
-  role may reach in the interface, and the API enforces the same rules
-  independently, so authorisation never depends on the client.
+  role may reach in the interface.
 
 ### With LINE, and identity across communities
 
@@ -92,9 +91,6 @@ The screens that result:
 
 - **NEO88 App Manual**, for experience providers:
   https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
-- It covers account registration, linking the LINE account, approving and
-  declining reservations, cancelling a session, checking applications, and
-  attendance management
 - The [recordings for deliverable 3](./demo/) show the current flow, including
   the administrative screens rebuilt after the festival
 
@@ -159,7 +155,8 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 - フロントエンドは業務ロジックもデータベースアクセスも持たない
 - すべては [`civicship-api`](https://github.com/Hopin-inc/civicship-api) の
   GraphQL API を経由する
-- API 自体の技術ドキュメントは Milestone 4（2025年11月27日）として提出済み
+- API 自体の技術ドキュメント（Milestone 4 として提出）：
+  https://github.com/Hopin-inc/civicship-api/tree/master/docs/handbook
 
 - **通信：** Apollo Client。サーバーコンポーネントと Edge middleware は同じ API を
   コミュニティのセッション cookie 付きで HTTP 呼び出しし、ブラウザはセッション cookie に
@@ -170,8 +167,7 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 - **テナンシー：** すべてのリクエストがコミュニティ ID を持つ。API はそこからテナントと
   呼び出し元のアイデンティティを解決し、行レベルセキュリティを適用する。
 - **認可：** `src/lib/auth/core/access-policy.ts` が画面上でどのロールがどのパスに
-  到達できるかを決める。API は同じルールを独立して強制しており、認可がクライアントに
-  依存することはない。
+  到達できるかを決める。
 
 ### LINE との連携と、コミュニティ横断のアイデンティティ
 
@@ -192,7 +188,5 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 
 - **NEO88 アプリマニュアル**（体験提供事業者向け）：
   https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
-- アカウント登録、LINE アカウントの連携、予約の承認と辞退、開催の中止、申込情報の確認、
-  出欠管理を扱う
 - 祭の後に作り直した管理画面を含め、現在の操作フローは[成果物3の録画](./demo/)で
   示している

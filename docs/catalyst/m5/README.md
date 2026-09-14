@@ -55,9 +55,10 @@ the same application, which signs a visitor in automatically. A reviewer can
 evaluate the participant screens and the administrative screens there without a
 LINE account and without giving up any personal information.
 
-It is a LINE mini app (LIFF), so the interface is built for the in-app browser it
-opens in. The same screens and the same functions work on a phone, a tablet and a
-desktop browser.
+It is a LINE mini app (LIFF), so the interface is laid out at phone width for the
+in-app browser it opens in; on a tablet or a desktop browser the same column is
+centred rather than reflowed. The same screens and the same functions work on all
+three.
 
 ---
 ---
@@ -117,5 +118,5 @@ Project Catalyst F12、Project ID 1200088。`df68a9a`（2026-09-07）時点の�
 参加者向け画面と管理画面の両方を評価できる。
 
 LINE ミニアプリ（LIFF）であるため、画面は起動元であるアプリ内ブラウザに合わせて
-構成している。同じ画面・同じ機能が、スマートフォン・タブレット・デスクトップブラウザの
-いずれでも動作する。
+スマートフォン幅で構成している。タブレットやデスクトップブラウザでは、同じ列が
+中央に寄る。同じ画面・同じ機能が、いずれのデバイスでも動作する。

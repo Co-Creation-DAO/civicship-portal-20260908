@@ -30,7 +30,7 @@ design became.
 | Milestone 3 | Milestone 5 |
 | --- | --- |
 | A UI/UX design prototype in Figma | The front end itself — [source](https://github.com/Co-Creation-DAO/civicship-portal-20260908), [documentation](./frontend-documentation.md), and a [running deployment](https://civicship.app/community/neo88) |
-| Design walkthrough videos: the prototype, narrated, in two playlists | [Use-case recordings](./demo/): the running application, in the same two sets |
+| Design walkthrough videos of the prototype, in two playlists | [Use-case recordings](./demo/): the running application, in the same two sets |
 | Requirements for the redesign, and an action plan | This document — each value, and the screen that carries it |
 
 The recordings keep the split visible. [`milestone3-use-cases/`](./demo/milestone3-use-cases/)
@@ -143,7 +143,7 @@ Milestone 3 は設計を提出した。Milestone 5 は、その設計がなっ�
 | Milestone 3 | Milestone 5 |
 | --- | --- |
 | Figma の UI/UX デザインプロトタイプ | フロントエンド本体 — [ソース](https://github.com/Co-Creation-DAO/civicship-portal-20260908)、[ドキュメント](./frontend-documentation.md)、[稼働中のデプロイ](https://civicship.app/community/neo88) |
-| デザインウォークスルー動画：プロトタイプの解説、2プレイリスト | [ユースケース録画](./demo/)：稼働中のアプリケーション、同じ2セット |
+| プロトタイプのデザインウォークスルー動画、2プレイリスト | [ユースケース録画](./demo/)：稼働中のアプリケーション、同じ2セット |
 | 再設計の要件とアクションプラン | 本書 — 各価値と、それを担う画面 |
 
 録画はこの区分を保っている。[`milestone3-use-cases/`](./demo/milestone3-use-cases/)
