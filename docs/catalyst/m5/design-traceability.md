@@ -98,6 +98,8 @@ location, and time".
 
 ## Beyond Milestone 3
 
+Resident-card NFTs were already present in Milestone 3's interview evidence — "Through NFT or token ownership, even remote individuals can participate in the local economy", recorded under the participants' second value — though not among the interfaces the prototype covered.
+
 | Area | Screens |
 | --- | --- |
 | DAO voting | `/votes`, `/votes/[topicId]`, `/admin/votes` |
@@ -207,6 +209,8 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | "(Future scope) Skill-tagged recommendations" | 未実装。 |
 
 ## Milestone 3 を超えて構築したもの
+
+住民証 NFT は、Milestone 3 のインタビュー記録には既に現れている。参加者の価値2に "Through NFT or token ownership, even remote individuals can participate in the local economy" として記録されているが、プロトタイプが扱ったインターフェースには含まれていなかった。
 
 | 領域 | 画面 |
 | --- | --- |
