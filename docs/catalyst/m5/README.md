@@ -35,9 +35,8 @@ Project Catalyst F12, Project ID 1200088. Code as of `df68a9a` (2026-09-07).
 
 ### The demo video is published on YouTube and is freely accessible to the community
 
-- [Twenty-one use-case recordings](./demo/)
-- [Where to try each recording](./demo/README.md#where-to-try-each-recording)
-- YouTube publication is pending
+- [Twenty-one use-case recordings, each with its YouTube link](./demo/README.md#where-to-try-each-recording)
+- [The recording files in this repository](./demo/)
 
 ### The video includes an access link to the application for usability testing
 
@@ -98,9 +97,8 @@ Project Catalyst F12、Project ID 1200088。`df68a9a`（2026-09-07）時点の�
 
 ### デモ動画が YouTube で公開され、コミュニティが自由にアクセスできること
 
-- [ユースケース別21本](./demo/)
-- [各録画を試せる画面](./demo/README.md#各録画を試せる画面)
-- YouTube への公開は未了
+- [ユースケース別21本、各動画の YouTube リンク付き](./demo/README.md#各録画を試せる画面)
+- [このリポジトリ内の録画ファイル](./demo/)
 
 ### 動画に、使用性テスト用のアプリへのアクセスリンクが含まれること
 
