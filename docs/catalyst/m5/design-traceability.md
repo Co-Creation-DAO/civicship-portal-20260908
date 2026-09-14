@@ -37,8 +37,7 @@ The recordings keep the split visible. [`milestone3-use-cases/`](./demo/mileston
 holds the eleven use cases Milestone 3 demonstrated, recorded again on the
 current application. [`beyond-milestone3/`](./demo/beyond-milestone3/) holds ten
 that go past it. This document reads the same way: sections 1 to 6 are what the
-prototype set out, and the two sections after them are what was left for later
-and what was built beyond it.
+prototype set out, and the section after them is what was built beyond it.
 
 ## 1. Visualising local people, activities and resources
 
@@ -88,13 +87,7 @@ location, and time".
 | | |
 | --- | --- |
 | Prototype | A search interface to browse activities and quests by interest or need; skill-tagged recommendations noted as future scope |
-| Today | A Quest is the form an opportunity takes when the participant contributes rather than receives. `/opportunities/search?type=quest` lists them, and a quest states the points the participant will earn where an activity states a fee, a point cost or a ticket — [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) is where the two diverge. |
-
-## Left for a later milestone
-
-| Milestone 3 | Today |
-| --- | --- |
-| "(Future scope) Skill-tagged recommendations" | Not built. |
+| Today | A Quest is the form an opportunity takes when the participant contributes rather than receives. `/opportunities/search?type=quest` lists them, and a quest states the points the participant will earn where an activity states a fee, a point cost or a ticket — [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) is where the two diverge. The skill-tagged recommendations the prototype noted as future scope are not built. |
 
 ## Beyond Milestone 3
 
@@ -148,8 +141,8 @@ Milestone 3 は設計を提出した。Milestone 5 は、その設計がなっ�
 録画はこの区分を保っている。[`milestone3-use-cases/`](./demo/milestone3-use-cases/)
 は Milestone 3 でデモンストレーションした11件を現在のアプリケーションで撮り直した
 もの、[`beyond-milestone3/`](./demo/beyond-milestone3/) はそれを超える10件である。
-本書も同じ読み方をする。1〜6節がプロトタイプで定めたもの、その後の2節が後の
-マイルストーンに送ったものと、それを超えて構築したものである。
+本書も同じ読み方をする。1〜6節がプロトタイプで定めたもの、その後の1節が
+それを超えて構築したものである。
 
 ## 1. 地域の人・活動・資源の可視化
 
@@ -199,13 +192,7 @@ Milestone 3 の文書にある関連アプローチ「関わりをポートフ�
 | | |
 | --- | --- |
 | プロトタイプ | 関心や必要に応じて Activity と Quest を探せる検索インターフェース。スキルタグによるレコメンドは将来対応と記載 |
-| 現在 | Quest は、参加者が受け取る側ではなく貢献する側に立つときの募集の形である。`/opportunities/search?type=quest` が一覧を出し、Activity が参加費・ポイント消費・チケット利用を示すのに対し、Quest は参加者が獲得するポイント数を示す。分岐は [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) にある。 |
-
-## 後のマイルストーンに送ったもの
-
-| Milestone 3 の記載 | 現在 |
-| --- | --- |
-| "(Future scope) Skill-tagged recommendations" | 未実装。 |
+| 現在 | Quest は、参加者が受け取る側ではなく貢献する側に立つときの募集の形である。`/opportunities/search?type=quest` が一覧を出し、Activity が参加費・ポイント消費・チケット利用を示すのに対し、Quest は参加者が獲得するポイント数を示す。分岐は [`displayPointsOrFee.tsx`](../../../src/utils/opportunity/displayPointsOrFee.tsx) にある。将来対応と記載されていたスキルタグによるレコメンドは未実装である。 |
 
 ## Milestone 3 を超えて構築したもの
 

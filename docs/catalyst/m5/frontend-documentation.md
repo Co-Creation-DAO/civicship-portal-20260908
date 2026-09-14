@@ -10,6 +10,8 @@
   (LIFF)**
 - Next.js 15 (App Router) and TypeScript, Tailwind CSS, Apollo Client against a
   GraphQL API, on Cloud Run behind an Edge middleware
+- 206 Storybook stories document the components, published on every pull request
+  through Chromatic
 - GPL-3.0
 
 ---
@@ -34,19 +36,6 @@ The principle those documents apply here:
 - The UX assumes a mobile browser inside LINE
 - The residents it serves already use LINE daily
 - Reaching the application requires no app installation and no Web3 wallet
-
-The screens that result:
-
-| Area | Screens |
-| --- | --- |
-| Participation | Opportunities (activities and their detail), reservations, quests |
-| Economy | Transactions and history, wallets, point transfer, tickets |
-| Place | Places (map and detail) |
-| Identity | User profile, DID / VC credentials |
-| Operations | Admin area — reservations, members, wallet, opportunities, tickets |
-
-- 206 Storybook stories document the components these are built from, published
-  on every pull request through Chromatic
 
 ---
 
@@ -91,8 +80,7 @@ The screens that result:
 
 - **NEO88 App Manual**, for experience providers:
   https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
-- The [recordings for deliverable 3](./demo/) show the current flow, including
-  the administrative screens rebuilt after the festival
+- The [recordings for deliverable 3](./demo/) show the current flow
 
 ---
 ---
@@ -108,6 +96,8 @@ The screens that result:
   提供する
 - Next.js 15（App Router）と TypeScript、Tailwind CSS、GraphQL API に対する Apollo
   Client、実行環境は Cloud Run で前段に Edge middleware
+- コンポーネントは206個の Storybook ストーリーとして文書化されており、
+  プルリクエストごとに Chromatic 経由で公開される
 - GPL-3.0
 
 ---
@@ -132,19 +122,6 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 - UX は LINE 内のモバイルブラウザを前提とする
 - 対象となる住民は既に LINE を日常的に使っている
 - 利用にあたってアプリのインストールも Web3 ウォレットの管理も必要としない
-
-結果として構成される画面：
-
-| 領域 | 画面 |
-| --- | --- |
-| 参加 | 募集（活動とその詳細）、予約、クエスト |
-| 経済 | 取引と履歴、ウォレット、ポイント送付、チケット |
-| 拠点 | 拠点（マップと詳細） |
-| アイデンティティ | ユーザープロフィール、DID / VC クレデンシャル |
-| 運用 | 管理エリア — 予約、メンバー、ウォレット、募集、チケット |
-
-- これらを構成するコンポーネントは206個の Storybook ストーリーとして文書化されており、
-  プルリクエストごとに Chromatic 経由で公開される
 
 ---
 
@@ -188,5 +165,4 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 
 - **NEO88 アプリマニュアル**（体験提供事業者向け）：
   https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
-- 祭の後に作り直した管理画面を含め、現在の操作フローは[成果物3の録画](./demo/)で
-  示している
+- 現在の操作フローは[成果物3の録画](./demo/)で示している
