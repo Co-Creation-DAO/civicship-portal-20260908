@@ -45,9 +45,9 @@ The principle those documents apply here:
 
 - The front end holds no business logic and no database access
 - Everything goes through the GraphQL API in
-  [`civicship-api`](https://github.com/Hopin-inc/civicship-api)
+  [`civicship-api`](https://github.com/Co-Creation-DAO/civicship-api-251127)
 - That API's own technical documentation, submitted as Milestone 4:
-  https://github.com/Hopin-inc/civicship-api/tree/master/docs/handbook
+  https://github.com/Co-Creation-DAO/civicship-api-251127/tree/master/docs/handbook
 
 - **Transport:** Apollo Client. Server components and the Edge middleware call the
   same API over HTTP with the community's session cookie; the browser sends the
@@ -79,7 +79,7 @@ The principle those documents apply here:
 ## User instructions
 
 - **NEO88 App Manual**, for experience providers:
-  https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
+  https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/view
 - The [recordings for deliverable 3](./demo/) show the current flow
 
 ---
@@ -130,10 +130,10 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 ### バックエンドとの連携
 
 - フロントエンドは業務ロジックもデータベースアクセスも持たない
-- すべては [`civicship-api`](https://github.com/Hopin-inc/civicship-api) の
+- すべては [`civicship-api`](https://github.com/Co-Creation-DAO/civicship-api-251127) の
   GraphQL API を経由する
 - API 自体の技術ドキュメント（Milestone 4 として提出）：
-  https://github.com/Hopin-inc/civicship-api/tree/master/docs/handbook
+  https://github.com/Co-Creation-DAO/civicship-api-251127/tree/master/docs/handbook
 
 - **通信：** Apollo Client。サーバーコンポーネントと Edge middleware は同じ API を
   コミュニティのセッション cookie 付きで HTTP 呼び出しし、ブラウザはセッション cookie に
@@ -164,5 +164,5 @@ Milestone 3 の期間中に作成・提出し、承認されたもの。
 ## 利用者向け手順書
 
 - **NEO88 アプリマニュアル**（体験提供事業者向け）：
-  https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/edit
+  https://docs.google.com/presentation/d/1WypOpniKO8l7OXk1VBbkYNf7O_vYgkwDg8it4eJccxk/view
 - 現在の操作フローは[成果物3の録画](./demo/)で示している
