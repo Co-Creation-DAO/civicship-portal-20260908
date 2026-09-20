@@ -122,7 +122,7 @@ Each function was rated 1–5 by all 35 respondents.
 
 | Function | Rated | What changed |
 | --- | ---: | --- |
-| Registering an experience | 3.29 | The administrative screens for creating and managing an opportunity were built into the application. Sessions, their capacity and their cancellation are set here. [`admin/opportunities`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/tree/develop/src/app/community/%5BcommunityId%5D/admin/opportunities), from 23 December 2025 |
+| Registering an experience | 3.29 | The administrative screens for creating and managing an opportunity were built into the application. Sessions, their capacity and their cancellation are set here. [`admin/opportunities`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/tree/df68a9a/src/app/community/%5BcommunityId%5D/admin/opportunities), from 23 December 2025 |
 | Reservation handling · Running an experience | 3.31–3.49 | The reservation detail screen — where a provider approves an application and records attendance — was restructured. [`0cbae16`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/0cbae16e45cc3de59f6fb5e7c0936456989205fd), 26 December 2025 |
 | Change / cancellation notices | 3.40 | Cancelling a session was implemented, with a message to the people holding a reservation for it. [`2354496`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/2354496a8ddb424d5b4f2a4bff985246250cd59e) · [`1ee21db`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/1ee21dbd4ce3e328c2c50303d3015cc0b968dd70), 23–24 December 2025 |
 
@@ -319,7 +319,7 @@ The demonstration ran on NEO88. These are its figures.
 
 | 機能 | 評価 | 入った変更 |
 | --- | ---: | --- |
-| 体験の登録 | 3.29 | 募集の作成・管理を行う管理画面をアプリケーション内に構築した。開催枠、定員、開催の中止をここで設定する。[`admin/opportunities`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/tree/develop/src/app/community/%5BcommunityId%5D/admin/opportunities)、2025年12月23日から |
+| 体験の登録 | 3.29 | 募集の作成・管理を行う管理画面をアプリケーション内に構築した。開催枠、定員、開催の中止をここで設定する。[`admin/opportunities`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/tree/df68a9a/src/app/community/%5BcommunityId%5D/admin/opportunities)、2025年12月23日から |
 | 予約対応・体験の実施 | 3.31〜3.49 | 予約詳細画面（申込の承認と出欠の記録を行う画面）を作り直した。[`0cbae16`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/0cbae16e45cc3de59f6fb5e7c0936456989205fd)、2025年12月26日 |
 | 変更・中止の通知 | 3.40 | 開催枠の中止を実装し、その枠に予約している利用者へメッセージを添えて通知するようにした。[`2354496`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/2354496a8ddb424d5b4f2a4bff985246250cd59e) · [`1ee21db`](https://github.com/Co-Creation-DAO/civicship-portal-20260908/commit/1ee21dbd4ce3e328c2c50303d3015cc0b968dd70)、2025年12月23〜24日 |
 
