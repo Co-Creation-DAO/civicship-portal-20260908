@@ -6,7 +6,6 @@
 
 
 - Final Milestone, deliverable 2. Project Catalyst F12, Project ID 1200088
-- Describes the code at `df68a9a` (2026-09-07)
 - Usage statistics, named in the deliverable itself, are the fourth section
 
 ---
@@ -210,7 +209,6 @@ The demonstration ran on NEO88. These are its figures.
 *[English is above](#en)*
 
 - Final Milestone 成果物2。Project Catalyst F12、Project ID 1200088
-- `df68a9a`（2026-09-07）時点のコードについて記述している
 - 成果物名に含まれる利用統計を4節目に置く
 
 ---
