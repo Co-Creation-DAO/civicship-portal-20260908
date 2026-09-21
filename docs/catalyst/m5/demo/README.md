@@ -12,7 +12,8 @@ Twenty-one recordings in two sets. [`milestone3-use-cases/`](./milestone3-use-ca
 holds the eleven use cases Milestone 3 demonstrated, recorded again on the current
 application — eight resident, three host. [`beyond-milestone3/`](./beyond-milestone3/)
 holds ten further use cases — three resident, seven host. Each set is split into
-`user/` and `admin/`, matching the two playlists used at Milestone 3. Every recording is also published on YouTube; the tables below link both.
+`user/` and `admin/`, matching the two playlists used at Milestone 3. Every recording is also published on YouTube; the tables below link both. The text each description
+carries is in [`video-descriptions.md`](./video-descriptions.md).
 
 ## Where to try each recording
 
@@ -71,6 +72,7 @@ Milestone 3 でデモンストレーションした11件を現在のアプリケ
 （住民向け8件、ホスト向け3件）。[`beyond-milestone3/`](./beyond-milestone3/) は追加の
 10件（住民向け3件、ホスト向け7件）。各セットは Milestone 3 の2つのプレイリストに合わせ、
 `user/` と `admin/` に分けている。全21本は YouTube にも公開しており、以下の表に両方のリンクを載せている。
+各概要欄の文面は [`video-descriptions.md`](./video-descriptions.md) にある。
 
 ## 各録画を試せる画面
 
